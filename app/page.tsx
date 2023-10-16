@@ -1,3 +1,4 @@
+import Footer from "@/components/UseClientPages/Footer";
 import Image from "next/image";
 import CarePage from "./care/page";
 import HeroPage from "./hero/page";
@@ -13,6 +14,7 @@ export default function Home() {
       <ProductsPage />
       <ReferencePage />
       <CarePage />
+      <Footer />
     </div>
   );
 }

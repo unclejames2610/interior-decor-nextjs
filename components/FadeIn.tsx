@@ -58,6 +58,7 @@ const FadeIn: FC<FadeInProps> = ({
           delay: delay,
           ease: [0.25, 0.25, 0.25, 0.75],
         }}
+        className="w-full flex items-center justify-center"
       >
         {children}
       </motion.div>

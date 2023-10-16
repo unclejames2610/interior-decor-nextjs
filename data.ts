@@ -42,7 +42,7 @@ export const services: servicesProps[] = [
 ];
 
 export const productsTitle: string = "Best Selling Products";
-export const productsBtnText: string = "See Colection";
+export const productsBtnText: string = "See Collection";
 
 export interface productsProps {
   title: string;

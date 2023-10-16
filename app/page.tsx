@@ -1,5 +1,6 @@
 import Image from "next/image";
 import HeroPage from "./hero/page";
+import ProductsPage from "./products/page";
 import ServicesPage from "./services/page";
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
     <div>
       <HeroPage />
       <ServicesPage />
+      <ProductsPage />
     </div>
   );
 }

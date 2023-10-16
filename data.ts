@@ -1,14 +1,14 @@
 // local imports
-import shippingIcon from "./assets/free-shiping-icon.svg";
-import paymentIcon from "./assets/quick-payment-icon.svg";
-import supportIcon from "./assets/support-icon.svg";
-import productOneIcon from "./assets/product-one.svg";
-import productTwoIcon from "./assets/produc-two.svg";
-import productThreeIcon from "./assets/product-three.svg";
-import plantIcon from "./assets/plant-icon.svg";
-import sunIcon from "./assets/sun-icon.svg";
-import waterIcon from "./assets/water-icon.svg";
-import temperatureIcon from "./assets/temperature-icon.svg";
+import shippingIcon from "@/public/assets/free-shiping-icon.svg";
+import paymentIcon from "@/public/assets/quick-payment-icon.svg";
+import supportIcon from "@/public/assets/support-icon.svg";
+import productOneIcon from "@/public/assets/product-one.svg";
+import productTwoIcon from "@/public/assets/produc-two.svg";
+import productThreeIcon from "@/public/assets/product-three.svg";
+import plantIcon from "@/public/assets/plant-icon.svg";
+import sunIcon from "@/public/assets/sun-icon.svg";
+import waterIcon from "@/public/assets/water-icon.svg";
+import temperatureIcon from "@/public/assets/temperature-icon.svg";
 import { SVGProps } from "react";
 
 export const heroTitle: string =

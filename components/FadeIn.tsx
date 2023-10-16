@@ -7,8 +7,8 @@ interface FadeInProps {
   children: ReactNode;
   delay: number;
   direction: string;
-  fullWidth: boolean;
-  padding: boolean;
+  fullWidth?: boolean;
+  padding?: boolean;
 }
 
 const FadeIn: FC<FadeInProps> = ({

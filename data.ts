@@ -10,6 +10,7 @@ import sunIcon from "@/public/assets/sun-icon.svg";
 import waterIcon from "@/public/assets/water-icon.svg";
 import temperatureIcon from "@/public/assets/temperature-icon.svg";
 import { SVGProps } from "react";
+import { StaticImageData } from "next/image";
 
 export const heroTitle: string =
   "Bring Serenity to Your Place With Interior Plants";
@@ -19,7 +20,7 @@ export const heroSubtitle: string =
 export interface servicesProps {
   title: string;
   subtitle: string;
-  icon: SVGProps<SVGSVGElement>;
+  icon: StaticImageData;
 }
 
 export const services: servicesProps[] = [
@@ -46,7 +47,7 @@ export const productsBtnText: string = "See Colection";
 export interface productsProps {
   title: string;
   price: string;
-  img: SVGProps<SVGSVGElement>;
+  img: StaticImageData;
 }
 
 export const products: productsProps[] = [
@@ -77,7 +78,7 @@ export const careSubtitle: string = "Take care of plants with all your heart";
 export interface careListProps {
   title: string;
   subtitle: string;
-  img: SVGProps<SVGSVGElement>;
+  img: StaticImageData;
 }
 
 export const careList: careListProps[] = [

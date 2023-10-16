@@ -1,7 +1,7 @@
 import Care from "@/components/UseClientPages/Care";
 import React from "react";
 
-const page = () => {
+const CarePage = () => {
   return (
     <div>
       <Care />
@@ -9,4 +9,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default CarePage;

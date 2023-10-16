@@ -1,7 +1,7 @@
 import Reference from "@/components/UseClientPages/Reference";
 import React from "react";
 
-const page = () => {
+const ReferencePage = () => {
   return (
     <div>
       <Reference />
@@ -9,4 +9,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default ReferencePage;

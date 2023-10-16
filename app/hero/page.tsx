@@ -1,7 +1,7 @@
 import Hero from "@/components/UseClientPages/Hero";
 import React from "react";
 
-const page = () => {
+const HeroPage = () => {
   return (
     <div>
       <Hero />
@@ -9,4 +9,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default HeroPage;

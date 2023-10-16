@@ -2,9 +2,9 @@
 import React, { FC } from "react";
 
 import { referenceTitle, referenceSubtitle } from "@/data";
-import imageOne from "../assets/image-one.svg";
-import imageTwo from "../assets/image-two.svg";
-import imageThree from "../assets/image-three.svg";
+import imageOne from "@/public/assets/image-one.svg";
+import imageTwo from "@/public/assets/image-two.svg";
+import imageThree from "@/public/assets/image-three.svg";
 
 import FadeIn from "@/components/FadeIn";
 

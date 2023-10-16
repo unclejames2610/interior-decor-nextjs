@@ -1,7 +1,7 @@
 import Products from "@/components/UseClientPages/Products";
 import React from "react";
 
-const page = () => {
+const ProductsPage = () => {
   return (
     <div>
       <Products />
@@ -9,4 +9,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default ProductsPage;

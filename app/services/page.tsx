@@ -1,7 +1,7 @@
 import Services from "@/components/UseClientPages/Services";
 import React from "react";
 
-const page = () => {
+const ServicesPage = () => {
   return (
     <div>
       <Services />
@@ -9,4 +9,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default ServicesPage;

@@ -3,7 +3,7 @@ import React from "react";
 
 const CarePage = () => {
   return (
-    <div>
+    <div id="care">
       <Care />
     </div>
   );

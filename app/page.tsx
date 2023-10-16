@@ -1,4 +1,5 @@
 import Image from "next/image";
+import CarePage from "./care/page";
 import HeroPage from "./hero/page";
 import ProductsPage from "./products/page";
 import ReferencePage from "./reference/page";
@@ -11,6 +12,7 @@ export default function Home() {
       <ServicesPage />
       <ProductsPage />
       <ReferencePage />
+      <CarePage />
     </div>
   );
 }
